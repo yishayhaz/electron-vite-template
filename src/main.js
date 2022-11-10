@@ -21,6 +21,6 @@ document.querySelector("#app").innerHTML = `
   </div>
 `;
 
-setupCounter(document.querySelector < HTMLButtonElement > "#counter");
+setupCounter(document.querySelector("#counter"));
 
 postMessage({ payload: "removeLoading" }, "*");
